@@ -16,4 +16,4 @@ make -j $(nproc)
 sudo make altinstall
 
 sudo rm -f /usr/bin/python3
-sudo ln -s /usr/local/lib/python3.8 /usr/bin/python
+sudo ln -s /usr/local/bin/python3.8 /usr/bin/python
