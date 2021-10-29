@@ -14,3 +14,5 @@ cd Python-3.8.9
 make -j $(nproc)
 
 sudo make altinstall
+
+sudo ln -s /usr/bin/python /usr/bin/python3
