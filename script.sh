@@ -17,3 +17,5 @@ sudo make altinstall
 
 sudo rm -f /usr/bin/python3
 sudo ln -s /usr/local/bin/python3.8 /usr/bin/python
+
+/usr/local/bin/python3.8 -m pip install --upgrade pip
