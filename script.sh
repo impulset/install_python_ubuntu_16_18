@@ -8,7 +8,7 @@ wget https://www.python.org/ftp/python/3.8.9/Python-3.8.9.tgz
 
 tar -xf Python-3.8.9.tgz
 
-cd Python-3.9.0
+cd Python-3.8.9
 ./configure --enable-optimizations
 
 make -j $(nproc)
